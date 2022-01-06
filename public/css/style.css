@@ -1,0 +1,138 @@
+.container-fluid {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+.back{
+    width:100%;
+}
+.logo{
+    position:absolute;
+    top:20px;
+    left:50px;
+    z-index:1;
+}
+.navbar{
+    position:absolute;
+    top:32px;
+    left:200px;
+    z-index:1;
+    
+}
+.list-inline>li {
+	margin-right: 35px;
+}
+.nav{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.nav:hover{
+    color:rgb(228, 194, 194);
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar2{
+    position:absolute;
+    top:32px;
+    right:40px;
+    z-index:1;
+}
+.head{
+    color:white;
+    font-family:futura;
+    font-size: 55px;
+    letter-spacing: -2px;
+}
+.headpos{
+    position:absolute;
+    left: 650px;
+    top: 200px;
+    z-index: 2;
+}
+.btn-default{
+    
+    border:1px solid white!important;
+    border-radius:50px!important;
+    font-size:20px;
+    position:absolute;
+    left:650px;
+    top:380px;
+}
+#name{
+    text-align: left;
+    position:relative;
+    top:10px;
+}
+.art{
+    padding:10px;
+    padding-left:60px;
+    text-align: right;
+}
+.name{
+    color:white;
+    font-size:20px;
+}
+/* .ply{
+    background-color: white;
+    border:1px solid white;
+    border-radius: 200px;
+} */
+#pre{
+    text-align:right;
+    position:relative;
+    top:15px;
+    left:25px;
+}
+.box{
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    background-color: white;
+    position:relative;
+    left:10px;
+    cursor: pointer;
+}
+.glyphicon-play{
+    color:black;
+    font-size:35px;
+    position:relative;
+    top:8px;
+    left:2px;
+}
+.glyphicon-backward{
+    font-size:25px;
+    color:white;
+    position:relative;
+    top:15px;
+
+}
+#ply{
+    text-align: center;
+    position:relative;
+    top:15px;
+}
+#for{
+    text-align: left;
+    position: relative;
+    top:15px;
+    left:-20px
+}
+.glyphicon-forward{
+    font-size:25px;
+    color:white;
+    position:relative;
+    top:15px;
+
+}
+.progress{
+    height:6px;
+    width:80%;
+    position:relative;
+    left:55px;
+    top:12px;
+}
+.box:hover{
+    background-color:rgb(201, 196, 196);
+}
