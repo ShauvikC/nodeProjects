@@ -3,6 +3,9 @@
     padding:0;
     overflow-x:hidden;
 }
+body{
+    background-color: #08011f;
+}
 .back{
     width:100%;
 }
@@ -157,4 +160,10 @@ div.bottom{
   position: fixed;
   bottom: 0;
    width: 100%;
+   z-index:12;
+}
+.artists{
+    position:relative;
+    left:200px;
+    color:white;
 }
