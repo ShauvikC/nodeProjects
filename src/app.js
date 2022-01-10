@@ -25,17 +25,17 @@ app.get("/", (req, res) => {
 app.get("/support", (req, res) => {
     res.render("support");
 });
-app.get("/download", (req, res) => {
-    res.render("download");
-});
+// app.get("/download", (req, res) => {
+//     res.render("download");
+// });
 app.get("/premium", (req, res) => {
     res.render("premium");
 });
-// app.get("*", (req, res) => {
-//     res.render('404', {
-//         errorComment: "Oops! Page not found..."
-//     });
-// });
+app.get("*", (req, res) => {
+    res.render('404', {
+        errorComment: "Oops! Page not found..."
+    });
+});
 app.listen(port, "", () => {
     console.log(`port number ${port} is working`);
 });

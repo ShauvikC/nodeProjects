@@ -136,3 +136,25 @@
 .box:hover{
     background-color:rgb(201, 196, 196);
 }
+.heads{
+    color:white;
+}
+.headposs{
+    position:absolute;
+    left: 750px;
+    top: 250px;
+    z-index: 2;
+}
+.headposp{
+    position:absolute;
+    
+    left: 200px;
+    top: 200px;
+    z-index: 2;
+}
+div.bottom{
+    position: -webkit-sticky;
+  position: fixed;
+  bottom: 0;
+   width: 100%;
+}
